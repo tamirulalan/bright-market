@@ -1,14 +1,15 @@
-
-
+import Home from "./Pages/Home";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import ProductView from "./Pages/ProductView";
 
 function App() {
   return (
-    <div >
-      <header >
-        <a href='/'>Bright Market</a>
-      </header>
-      <main> List Product </main>
-    </div>
+    <BrowserRouter>
+      <Routes >
+        <Route path="/product/:slug" element ={ <ProductView/>}/>
+        <Route path="/" element ={ <Home/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

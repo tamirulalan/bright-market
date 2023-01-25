@@ -77,6 +77,9 @@ header{
   background: #100b39;
   padding: 1rem;
   color: wheat;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 header a{
   text-decoration: none;
