@@ -87,6 +87,19 @@ const data = {
       description: "GO TO YOUR SKIPPY PLACE! With a hearty snack or a robust sandwich, SKIPPY peanut butter hits the spot with the right combination of sweet and savory peanut flavor. SKIPPY Peanut Butter makes nutritious delicious with foods like whole grain bread, fruit and milk – so spread the smiles! Our peanut butter helps restore energy and leaves you feeling charged. It’s been a staple on grocery lists and in pantries for over 80 years! Made with four simple ingredients, we only use real roasted peanuts with no added preservatives – no separation and no oily mess",
     },
 
+    {
+      name: 'Women Red Heels Sandal',
+      slug: 'Women-Red',
+      category: 'Shoes',
+      image: '/img/1.png',
+      price: 39,
+      countInStock: 5,
+      brand: 'brand',
+      rating: 4.5,
+      numReviews: 10,
+      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    },
+
     
     {
       name: 'Orange',
@@ -99,6 +112,18 @@ const data = {
       rating: 4.5,
       numReviews: 10,
       description: "Enjoy the fresh sweetness of Marketside Organic Oranges. A great source of vitamin C, these oranges can be a satisfying afternoon snack, or you can use them in a variety of recipes. For breakfast, use these oranges to make a rich and creamy smoothie or serve them alongside your pancakes, sausage, and eggs. Slice these oranges and use them to add flavor to a lunchtime salad or as a garnish for your favorite adult beverage. Oranges are used in many tasty desserts like ambrosia, orange bars, and zesty orange pie. Get creative in the kitchen and make homemade orange marmalade or a refreshing orange sorbet. However you choose to use them, Marketside Organic Oranges add flavor to any meal or beverage.",
+    },
+    {
+      name: 'Velcro Ballerinas For Girls  (Pink)',
+      slug: 'Velcro- Ballerinas',
+      category: 'Shoes',
+      image: '/img/5.png',
+      price: 89,
+      countInStock: 5,
+      brand: 'brand',
+      rating: 4.5,
+      numReviews: 10,
+      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
     },
   ],
 };

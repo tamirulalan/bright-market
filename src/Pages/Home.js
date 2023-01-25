@@ -1,13 +1,16 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Footer from './Footer'
+import Header from './Header'
+
 import ProductList from './ProductList'
 
 const Home = () => {
   return (
-    <div>
-        <Navbar/>
+    <div className='d-flex flex-column site-container'>
+        <Header/>
         <p>Home Page</p>
         <ProductList/>
+        <Footer/>
     </div>
   )
 }
