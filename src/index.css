@@ -6,16 +6,33 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+header {
+  background-color: #404040;
+  padding: 1rem;
+}
+header a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
 .site-container {
   min-height: 100vh;
+}
+
+.Navbar{
+  background: #00c8f0;
+  color: rgb(109, 100, 87);
+}
+Container{
+  color: wheat;
 }
 main {
   flex: 1;
 }
 .btn-primary,
 .btn-outline-primary {
-  background-color: #080808;
-  color: #e8dfdf;
+  background-color: #f0c040;
+  color: #000000;
 }
 .products {
   display: flex;
@@ -37,10 +54,6 @@ main {
 }
 .product-info {
   padding: 1rem;
-}
-img{
-  width: 349px;
-  height: 349px;
 }
 .img-large {
   max-width: 100%;
@@ -76,24 +89,7 @@ img{
 
 .site-container {
   transition: 0.4s;
-  min-height: 100vh;
 }
-/* header{
-  background: #100b39;
-  padding: 1rem;
-  color: wheat;
-  position: -webkit-sticky; /* Safari */
-  /* position: sticky;
-  top: 0;
-} */
-header a{
-  text-decoration: none;
-  color: wheat;
-  font-weight: bold;
-}
-header a:hover{
-  background: #404040;
-} */
 .active-cont {
   margin-left: 240px;
 }
@@ -145,7 +141,4 @@ header a:hover{
 }
 button.thumbnail {
   padding: 0;
-}
-Link{
-  text-decoration: none;
 }
