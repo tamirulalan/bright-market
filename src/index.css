@@ -16,8 +16,8 @@ main {
   flex: 1;
 }
 img{
-  width: 349px;
-  height: 349px;
+  width: 100%;
+  
 }
 .btn-primary,
 .btn-outline-primary {
