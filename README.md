@@ -1,5 +1,20 @@
-# Getting Started with Create React App
+# Bright Market
 
+ this app works using [brightmarketexpress app](https://github.com/tamirulalan/BrightMarketExpress)
+
+# objective
+Developing app for inventory track
+# Home page
+[Home ](public/readme/home.png)
+this page shows all products we have with necessary informations
+
+# Showpage
+[Show ](public/readme/show.png)
+this shows each items detail with cart
+[Detail](public/readme/show.png)
+
+[cart](public/readme/cart.png)
+[adress] (public/readme/adress.png)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
