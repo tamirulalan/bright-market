@@ -6,16 +6,23 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.nav-link{
+  color: rgb(17, 17, 47)
+}
 .site-container {
   min-height: 100vh;
 }
 main {
   flex: 1;
 }
+img{
+  width: 349px;
+  height: 349px;
+}
 .btn-primary,
 .btn-outline-primary {
-  background-color: #f0c040;
-  color: #000000;
+  background-color: #0e141a;
+  color: #d4c5c5;
 }
 .products {
   display: flex;

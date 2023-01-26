@@ -6,7 +6,7 @@ import axios from 'axios';
 import { useContext } from 'react';
 import { Store } from '../Store';
 
-function ProductIndex(props) {
+function Product(props) {
   const { product } = props;
 
   const { state, dispatch: ctxDispatch } = useContext(Store);
@@ -50,4 +50,4 @@ function ProductIndex(props) {
     </Card>
   );
 }
-export default ProductIndex;
+export default Product;
