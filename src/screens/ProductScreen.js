@@ -97,6 +97,7 @@ function ProductScreen() {
                 numReviews={product.numReviews}
               ></Rating>
             </ListGroup.Item>
+            <ListGroup.Item>countInStock : {product.countInStock}</ListGroup.Item>
             <ListGroup.Item>Pirce : ${product.price}</ListGroup.Item>
             <ListGroup.Item>
               Description:

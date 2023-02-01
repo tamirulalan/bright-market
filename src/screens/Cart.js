@@ -22,7 +22,8 @@ export default function CartScreen() {
     if (data.InStock < quantity) {
       window.alert('Sorry. Product is out of stock');
       return;
-    }
+    } 
+
     ctxDispatch({
       type: 'CART_ADD_ITEM',
       payload: { ...item, quantity },
@@ -113,8 +114,8 @@ export default function CartScreen() {
                     <Button
                       type="button"
                       variant="primary"
-                      onClick={checkoutHandler}
                       disabled={cartItems.length === 0}
+                      onClick={checkoutHandler}
                     >
                       Proceed to Checkout
                     </Button>

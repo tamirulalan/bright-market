@@ -8,6 +8,7 @@ import { useContext, useEffect, useState } from 'react';
 import { Store } from '../Store';
 import { toast } from 'react-toastify';
 import { getError } from '../utils';
+import Footer from "./Footer"
 
 export default function SignupScreen() {
   const navigate = useNavigate();
@@ -92,6 +93,8 @@ export default function SignupScreen() {
           <Link to={`/signin?redirect=${redirect}`}>Sign-In</Link>
         </div>
       </Form>
+      <Footer/>
     </Container>
+    
   );
 }

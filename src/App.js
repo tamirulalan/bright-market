@@ -35,6 +35,8 @@ import UserListScreen from './screens/UserListScreen';
 import UserEditScreen from './screens/UserEditScreen';
 import MapScreen from './screens/MapScreen';
 import {AiOutlineShoppingCart} from 'react-icons/ai'
+import Footer from './screens/Footer';
+import Currency from './screens/Currency';
 
 function App() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
@@ -86,7 +88,7 @@ function App() {
               </Button>
 
               <LinkContainer to="/">
-                <Navbar.Brand>Bright Shop</Navbar.Brand>
+                <Navbar.Brand>Inventory Tracking</Navbar.Brand>
               </LinkContainer>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
@@ -98,7 +100,7 @@ function App() {
                       <Badge pill bg="danger">
                         {cart.cartItems.reduce((a, c) => a + c.quantity, 0)}
                       </Badge>
-                    )}
+                    )} 
                   </Link>
                   {userInfo ? (
                     <NavDropdown title={userInfo.name} id="basic-nav-dropdown">
@@ -141,8 +143,10 @@ function App() {
                 </Nav>
               </Navbar.Collapse>
             </Container>
+            
           </Navbar>
         </header>
+        <Currency/>
         <div
           className={
             sidebarIsOpen
@@ -266,9 +270,10 @@ function App() {
             </Routes>
           </Container>
         </main>
-        <footer>
+        <Footer/>
+        {/* <footer>
           <div className="text-center">All rights reserved</div>
-        </footer>
+        </footer> */}
       </div>
     </BrowserRouter>
   );
