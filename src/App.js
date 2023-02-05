@@ -36,7 +36,7 @@ import UserEditScreen from './screens/UserEditScreen';
 import MapScreen from './screens/MapScreen';
 import {AiOutlineShoppingCart} from 'react-icons/ai'
 import Footer from './screens/Footer';
-import Currency from './screens/Currency';
+// import Currency from './screens/Currency';
 
 function App() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
@@ -143,10 +143,10 @@ function App() {
                 </Nav>
               </Navbar.Collapse>
             </Container>
-            
+            Currency
           </Navbar>
         </header>
-        <Currency/>
+        
         <div
           className={
             sidebarIsOpen
@@ -178,6 +178,7 @@ function App() {
               <Route path="/search" element={<SearchScreen />} />
               <Route path="/signin" element={<SigninScreen />} />
               <Route path="/signup" element={<SignupScreen />} />
+              {/* <Route path="/currency" element={<Currency />} /> */}
               <Route
                 path="/profile"
                 element={
